@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #004e34;
+}
+
+.button-search {
+  margin-top: 20px;
+  background-color: #e4860a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-search:hover {
+  background-color: #000000;
+}
+
+.book-card button {
+  background-color: #e4860a;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 44px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;  
+}
+
+.book-card button:hover {
+  background-color: #000000;
+}
+
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book-card {
+  background-color: #6db410;
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 6px rgb(0, 0, 0);
+  width: calc(33.33% - 16px);
+  box-sizing: border-box; 
+  text-align: center;
+}
+
+.book-card h3 {
+  margin: 0;
+}
+
+.book-card p {
+  margin-top: 8px;
+}
